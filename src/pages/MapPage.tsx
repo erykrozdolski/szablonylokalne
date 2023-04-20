@@ -6,7 +6,7 @@ const MapPage = () => {
   return (
     <div>
       <Map />
-      <p className="text-5xl my-4">Mapa Szablonów</p>
+      <p className="text-5xl my-8 font-bold">Mapa Szablonów</p>
       <p className="text-xl my-4">
         Spoglądając na mapę wszystkich murali, łatwo jest zaplanować sobie trasę
         spacerową lub rowerową, w której możemy zobaczyć wszystkie szablony.

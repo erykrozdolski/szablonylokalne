@@ -1,42 +1,33 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import Menu from "./Menu/Menu";
 
 const Navbar = () => {
-  const linkClasses = (isActive) =>
-    (isActive ? "font-bold" : "") + " py-5 px-3";
   const [isMenuOpen, toggleMenu] = useState(false);
+
   return (
     <nav className="">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <div>
-              <a href="/" className="flex items-center py-5">
+              <a href="/" className="flex items-center py-3">
                 <span className="font-bold">SZABLONY&nbsp;</span>
                 <span className="font-black">LOKAL</span>
                 <span className="font-italic">ne</span>
               </a>
             </div>
 
-            <div className="hidden md:flex items-center space-x-1">
-              <NavLink to="/" className={linkClasses}>
-                O projekcie
-              </NavLink>
-              <NavLink className={linkClasses} to="/Map">
-                Mapa szablonów
-              </NavLink>
-              <NavLink className={linkClasses} to="/biogramList">
-                Biogramy
-              </NavLink>
+            <div className="hidden sm:flex items-center space-x-1 md:px-4">
+              <Menu toggleMenu={toggleMenu} />
             </div>
           </div>
 
-          <div className="hidden md:flex items-center space-x-1"></div>
+          <div className="hidden sm:flex items-center space-x-1"></div>
 
-          <div className="md:hidden flex items-center">
+          <div className="sm:hidden flex items-center">
             <button
-              className="mobile-menu-button"
               onClick={() => toggleMenu(!isMenuOpen)}
+              className="mobile-menu-button"
             >
               <svg
                 className="w-6 h-6"
@@ -60,17 +51,9 @@ const Navbar = () => {
       <div
         className={`bg-white grid text-black ${
           isMenuOpen ? "" : "hidden"
-        } md:hidden`}
+        } md:hidden px-4`}
       >
-        <NavLink to="/" className={linkClasses}>
-          O projekcie
-        </NavLink>
-        <NavLink className={linkClasses} to="/Map">
-          Mapa szablonów
-        </NavLink>
-        <NavLink className={linkClasses} to="/biogramList">
-          Biogramy
-        </NavLink>
+        <Menu toggleMenu={toggleMenu} />
       </div>
     </nav>
   );

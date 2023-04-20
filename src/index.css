@@ -7,3 +7,11 @@
 html {
   background: black;
 }
+
+.leaflet-container a.leaflet-popup-close-button {
+  top: 6px;
+  right: 4px;
+  width: 32px;
+  height: 32px;
+  font: 24px/24px Tahoma, Verdana, sans-serif;
+}

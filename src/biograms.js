@@ -6,6 +6,7 @@ export const biograms = {
     deathdate: "1930",
     imagePath: "/avatars/tomaszgabriel.png",
     video: "/video/tomaszgabriel.mp4",
+    role: "działacz niepodległościowy, duszpasterz",
     location: [51.28632098765013, 17.9012634897601],
     desc: [
       `<b>Urodził się 1 stycznia 1864 r. w Dobrzeniu Wielkim</b> na Opolszczyźnie. Podczas studiów teologicznych na Uniwersytecie Wrocławskim aktywnie 
@@ -28,6 +29,7 @@ export const biograms = {
     surname: "Przywara",
     birthdate: "1867",
     deathdate: "1906",
+    role: "filolog, literat, Silesiofil",
     imagePath: "/avatars/michałprzywara.jpg",
     video: "/video/przywara.mp4",
     location: [51.286094725553596, 17.913834504522413],
@@ -53,6 +55,7 @@ export const biograms = {
     surname: "Kutzner",
     birthdate: "1887",
     deathdate: "1955",
+    role: "działacz społeczny, nauczyciel, muzyk",
     imagePath: "/avatars/stanisławkutzner.jpg",
     location: [51.28459572922375, 17.905000063729098],
     video: "/video/kutzner.mp4",
@@ -83,6 +86,7 @@ export const biograms = {
     deathdate: "1991",
     imagePath: "/avatars/antonigabriel.jpg",
     video: "/video/antonigabriel.mp4",
+    role: "inżynier, pilot, genialny umysł",
     location: [51.28482854158273, 17.912244445391178],
     desc: [
       `<b>Urodził się 18 maja 1911 roku w Mnichowicach</b>, na ówczesnym Śląsku (dziś Wielkopolska).
@@ -116,6 +120,7 @@ export const biograms = {
     video: "/video/hanys.mp4",
     birthdate: "1884",
     deathdate: "1939",
+    role: "działacz niepodległościowy, społecznik",
     location: [51.28579361124551, 17.90152752908563],
     desc: [
       `<b>Urodził się 24 czerwca 1884 roku w Bralinie</b> na ówczesnym Śląsku (dziś Wielkopolska).
@@ -143,6 +148,7 @@ export const biograms = {
     deathdate: "1967",
     imagePath: "/avatars/melchiorgrossek.png",
     video: "/video/melchior.mp4",
+    role: "artysta, malarz",
     location: [51.285630149541376, 17.902997743189374],
     desc: [
       `<b>Urodził się 6 stycznia 1889 roku w Bralinie</b> na ówczesnym Śląsku. W 1909 r. zdał maturę w
@@ -170,6 +176,7 @@ export const biograms = {
     deathdate: "1939",
     imagePath: "/avatars/jannowak.jpg",
     video: "/video/nowak.mp4",
+    role: "pocztowiec gdański, bohater",
     location: [51.285910975239716, 17.908082681648615],
     desc: [
       `<b>Urodził się 4 lutego 1890 roku w Nowej Wsi Książęcej</b> na ówczesnym Śląsku. Pochodził
@@ -200,6 +207,7 @@ export const biograms = {
     surname: "Grossek",
     birthdate: "1907",
     deathdate: "1940",
+    role: "oficer Wojska Polskiego, katyńczyk",
     imagePath: "/avatars/stanisławgrossek.jpg",
     video: "/video/stanisławgrossek.mp4",
     location: [51.28648999055122, 17.912114123362826],
@@ -228,6 +236,7 @@ export const biograms = {
     birthdate: "1900",
     deathdate: "1974",
     imagePath: "/avatars/ignacymajchrzak.png",
+    role: "strzelec wielkopolski, weteran wojenny",
     video: "/video/majchrzak.mp4",
     location: [51.28572817968929, 17.90471084127396],
     desc: [
@@ -257,6 +266,7 @@ export const biograms = {
     birthdate: "1892",
     deathdate: "1942",
     imagePath: "/avatars/stefanwojciechowski.png",
+    role: "działacz społeczny, duszpasterz",
     video: "/video/wojciechowski.mp4",
     location: [51.28398171687474, 17.91392182413354],
     desc: [

@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import L, { Icon, LatLngExpression } from "leaflet";
+import L, { LatLngExpression } from "leaflet";
 import biograms from "../../biograms";
 import "leaflet/dist/leaflet.css";
 import { NavLink } from "react-router-dom";
@@ -14,7 +14,8 @@ const Map = () => {
   });
   return (
     <MapContainer
-      style={{ height: "100vh" }}
+      className="lg:h-screen h-[32rem]"
+      // style={{ height: "50vh" }}
       center={[51.2861, 17.904209]}
       zoom={16}
       scrollWheelZoom={false}
@@ -25,7 +26,7 @@ const Map = () => {
       />
       {biogramList.map((data) => {
         const [fullName, person] = data;
-        const { surname, name, imagePath, birthdate, deathdate } = person;
+        const { imagePath, birthdate, deathdate, role } = person;
         const lifeLabel = `[${birthdate}-${deathdate}]`;
         return (
           <Marker
@@ -37,15 +38,17 @@ const Map = () => {
               <img
                 src={imagePath}
                 alt={fullName}
-                className="h-auto max-h-60 w-100"
+                className="lg:h-auto lg:max-h-60  max-h-32 w-100"
               />
               <p>
                 <span className="font-black my-0">{fullName} </span>
                 <br></br>
                 <span className="text-sm">{lifeLabel}</span>
+                <br></br>
+                <span className="text-sm">{role}</span>
               </p>
               <NavLink to={`/biogram/${fullName}`}>
-                <button className="text-white hover:bg-white bg-black uppercase border-2 hover:border-black p-4 hover:shadow-lg hover:text-black font-bold">
+                <button className="text-white hover:bg-white bg-black uppercase border-2 hover:border-black px-4 py-2 hover:shadow-lg hover:text-black font-bold">
                   Dowiedz się więcej
                 </button>
               </NavLink>

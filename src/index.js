@@ -6,20 +6,23 @@ import BiogramList from "./pages/BiogramList";
 import AboutPage from "./pages/AboutPage";
 import NoPage from "./pages/NoPage";
 import BiogramPage from "./pages/BiogramPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "./index.css";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<AboutPage />} />
-          <Route path="map" element={<MapPage />} />
-          <Route path="biogramList" element={<BiogramList />} />
-          <Route path="biogram/:id" element={<BiogramPage />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<AboutPage />} />
+            <Route path="map" element={<MapPage />} />
+            <Route path="biogramList" element={<BiogramList />} />
+            <Route path="biogram/:id" element={<BiogramPage />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

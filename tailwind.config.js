@@ -9,6 +9,7 @@ module.exports = {
       heading: ["Montserrat", "sans-serif"],
       black: ["Montserrat Black", "sans-serif"],
       light: ["Montserrat Light", "sans-serif"],
+      italic: ["Montserrat Italic", "sans-serif"],
     },
   },
   plugins: [],
