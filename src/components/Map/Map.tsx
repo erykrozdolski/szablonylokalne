@@ -2,20 +2,15 @@ import React from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import L, { LatLngExpression } from "leaflet";
 import biograms from "../../biograms";
-import "leaflet/dist/leaflet.css";
 import { NavLink } from "react-router-dom";
+import "leaflet/dist/leaflet.css";
 
 const Map = () => {
   const biogramList = Object.entries(biograms);
-  const myIcon = L.icon({
-    iconUrl: require("./marker-icon.png"),
-    iconSize: [24, 24],
-    iconAnchor: [16, 16],
-  });
+
   return (
     <MapContainer
       className="lg:h-screen h-[32rem]"
-      // style={{ height: "50vh" }}
       center={[51.2861, 17.904209]}
       zoom={16}
       scrollWheelZoom={false}
@@ -28,6 +23,12 @@ const Map = () => {
         const [fullName, person] = data;
         const { imagePath, birthdate, deathdate, role } = person;
         const lifeLabel = `[${birthdate}-${deathdate}]`;
+        const path = `./icons/${fullName.replace(/ /g, "")}.png`;
+        const myIcon = L.icon({
+          iconUrl: path,
+          iconSize: [48, 48],
+          iconAnchor: [16, 16],
+        });
         return (
           <Marker
             position={person.location as LatLngExpression}

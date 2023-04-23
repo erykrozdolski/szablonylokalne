@@ -1,28 +1,31 @@
 import React from "react";
 
 const AboutPage = () => {
+  const paragraphClasses = `lg:text-xl md:text-xl text-l`;
+  const largeTitle = "text-4xl font-bold my-4 ";
+  const mediumTitle = "text-2xl font-bold my-4";
   return (
-    <div className="max-w-4xl mx-auto ">
+    <div className="max-w-4xl mx-auto text-justify">
       <iframe
         width="100%"
-        height="600"
+        // height="600"
         src="https://www.youtube.com/embed/IdWoyn_0f7M"
         title="Szablony lokalne"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-        className="mb-8"
+        className="mb-8 md:h-[600px] h-[300px]"
       ></iframe>
-      <p className="text-6xl font-bold my-4 ">Co to?</p>
-      <p className="lg:text-xl text-xl text-justify">
+      <p className={largeTitle}>Co to?</p>
+      <p className={paragraphClasses}>
         Szablony LOKALne projekt, który zakładał oddanie hołdu i szacunku
         wybitnym jednostkom, w historii naszej lokalnej społeczności, poprzez
         serię szablonów (technika graffiti).
       </p>
-      <p className="text-6xl font-bold mt-8 mb-4">Dlaczego?</p>
+      <p className={largeTitle}>Dlaczego?</p>
       <div>
-        <p className="text-3xl font-bold my-4">Pamięć</p>
-        <p className="lg:text-xl text-xl text-justify">
+        <p className={mediumTitle}>Pamięć</p>
+        <p className={paragraphClasses}>
           Chciałem oddać hołd ludziom o wyjątkowym poczuciu moralności,
           inteligencji, wrażliwości, pełni troski o życie społeczne mieszkańców,
           którzy nie zważając na swoje życie działali w sprawach niepodległości
@@ -37,8 +40,8 @@ const AboutPage = () => {
         </p>
       </div>
       <div>
-        <p className="text-3xl font-bold my-4">Edukacja</p>
-        <p className="lg:text-xl text-xl text-justify">
+        <p className={mediumTitle}>Edukacja</p>
+        <p className={paragraphClasses}>
           Powszechna forma pozwala na łatwiejsze dotarcie do wszystkich
           mieszkańców bez podziału na wiek (edukacja nie tylko w wieku
           szkolnym). Chciałem, żeby szablony wpisały się w krajobraz naszej
@@ -51,21 +54,21 @@ const AboutPage = () => {
         </p>
       </div>
       <div>
-        <p className="text-3xl font-bold my-4">Estetyka</p>
-        <p className="lg:text-xl text-xl text-justify">
+        <p className={mediumTitle}>Estetyka</p>
+        <p className={paragraphClasses}>
           Mam nadzieję, że jakiejś części naszej społeczności te murale, po
           prostu wydadzą się ładne, estetyczne, a nowe wersje tych do tej pory,
           mniej lub bardziej anonimowych pustych ścian, okażą się miłymi
           akcentami w krajobrazie Bralina.
         </p>
       </div>
-      <p className="text-6xl font-bold mt-8 mb-4">Kiedy?</p>
-      <p className="lg:text-xl text-xl text-justify">
+      <p className={largeTitle}>Kiedy?</p>
+      <p className={paragraphClasses}>
         Pierwszy mural powstał jesienią 2022, najpóźniejszy (ale nie ostatni) w
         kwietniu 2023 roku.
       </p>
-      <p className="text-6xl font-bold mt-8 mb-4">Kto?</p>
-      <p className="lg:text-xl text-xl text-justify">
+      <p className={largeTitle}>Kto?</p>
+      <p className={paragraphClasses}>
         Dziękuję wszystkim sponsorom, którzy pomogli mi sfinansować farby oraz
         tablice informacyjne. Dziękuję państwu Małgorzacie i Cezaremu
         Grześkowiak, państwu Kindze i Damianowi Kozicy oraz mojemu bratu

@@ -5,7 +5,7 @@ const BiogramCard = ({ fullName, person }) => {
   const { surname, name, imagePath } = person;
   return (
     <NavLink to={`/biogram/${fullName}`}>
-      <div className="bg-black border-2 border-white shadow-xl justify-center flex hover:lg:shadow-lg hover:lg:scale-150 transition-all relative hover:lg:z-50">
+      <div className="bg-black border-2 border-white shadow-xl justify-center flex hover:lg:shadow-lg hover:lg:scale-110 transition-all relative hover:lg:z-50">
         <img
           alt={surname + name}
           src={process.env.PUBLIC_URL + `${imagePath}`}

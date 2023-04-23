@@ -3,15 +3,17 @@ import Map from "../components/Map/Map";
 import { NavLink } from "react-router-dom";
 
 const MapPage = () => {
+  const paragraphClass = "md:text-xl text-l my-4";
+
   return (
-    <div>
+    <div className="text-justify">
       <Map />
-      <p className="text-5xl my-8 font-bold">Mapa Szablonów</p>
-      <p className="text-xl my-4">
+      <p className="text-4xl my-8 font-bold">Mapa Szablonów</p>
+      <p className={paragraphClass}>
         Spoglądając na mapę wszystkich murali, łatwo jest zaplanować sobie trasę
         spacerową lub rowerową, w której możemy zobaczyć wszystkie szablony.
       </p>
-      <p className="text-xl my-4">
+      <p className={paragraphClass}>
         Lokalizacja wielu z nich jest nieprzypadkowa.{" "}
         <NavLink to={`/biogram/Hanys Rybark`}>
           <span className=" underline"> Hanys Rybark</span>
@@ -26,7 +28,7 @@ const MapPage = () => {
         </NavLink>{" "}
         patrzy w kierunku ulicy Braci Grossków
       </p>
-      <p className="text-xl my-4">
+      <p className={paragraphClass}>
         Spacery polecam rozpocząć od "starego" Bralina i Hanysa Rybarka, czyli
         ulicy 3-maja, później zobaczyć obrazy Melchiora na budynku starej
         bralińskiej gospody. Następnie ulicą Krętą (Kutzner) i Spokojną przejść

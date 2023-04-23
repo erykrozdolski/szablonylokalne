@@ -28,6 +28,7 @@ const BiogramPage = () => {
           autoPlay
           muted
           loop
+          playsInline
         ></video>
       </div>
       <Breadcrumbs biogram={biogram} />
@@ -48,7 +49,10 @@ const BiogramPage = () => {
         <div className="col-start-1 lg:col-start-5 col-end-13">
           <p className="text-4xl lg:text-6xl mb-6">Życiorys</p>
           {biogram.desc.map((paragraph, i) => (
-            <p key={i} className="text-lg pb-3 text-justify text-slate-100">
+            <p
+              key={i}
+              className="md:text-lg text-l pb-3 text-justify text-slate-100"
+            >
               {parse(paragraph)}
             </p>
           ))}
