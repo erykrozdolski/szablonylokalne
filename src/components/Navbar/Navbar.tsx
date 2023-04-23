@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./Menu/Menu";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, toggleMenu] = useState(false);
@@ -10,11 +11,11 @@ const Navbar = () => {
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <div>
-              <a href="/" className="flex items-center py-3">
+              <NavLink to="/" className="flex items-center py-3">
                 <span className="font-bold">SZABLONY&nbsp;</span>
                 <span className="font-black">LOKAL</span>
                 <span className="font-italic">ne</span>
-              </a>
+              </NavLink>
             </div>
 
             <div className="hidden sm:flex items-center space-x-1 md:px-4">
