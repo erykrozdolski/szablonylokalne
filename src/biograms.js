@@ -9,7 +9,7 @@ export const biograms = {
     role: "działacz niepodległościowy, duszpasterz",
     location: [51.28632098765013, 17.9012634897601],
     desc: [
-      `<b>Urodził się 1 stycznia 1864 r. w Dobrzeniu Wielkim</b> na Opolszczyźnie. Podczas studiów teologicznych na Uniwersytecie Wrocławskim aktywnie 
+      `<b>Urodził się 1 stycznia 1865 r. w Dobrzeniu Wielkim</b> na Opolszczyźnie. Podczas studiów teologicznych na Uniwersytecie Wrocławskim aktywnie 
       działał w Towarzystwie Naukowym Akademików Górnoślązaków. 19 marca 1896 r. został proboszczem w parafii Bralin. <b>Był niestrudzonym bojownikiem 
       w walce o polskość.</b>  W okresie plebiscytu wraz z innymi opracował memorandum o polskości dekanatu sycowskiego dla komisji alianckiej, działającej 
       na Górnym Śląsku. Zbierał podpisy pod nim, agitował i przemawiał. Za tę działalność znalazł się na <i>czarnej liście</i> Grenzschutzu.`,

@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Layout from "./pages/Layout";
 import MapPage from "./pages/MapPage";
 import BiogramList from "./pages/BiogramList";
@@ -11,7 +12,7 @@ import "./index.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -23,7 +24,7 @@ export default function App() {
           </Route>
         </Routes>
       </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
