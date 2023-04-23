@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const MenuLink = ({ to, label, onClick }) => {
   const linkClasses = ({ isActive }) =>
     (isActive ? " text-green-400 " : "") +
-    " sm:px-2 lg:px-4 py-6 md:py-2 uppercase font-bold";
+    " sm:px-2 lg:px-4 py-6 sm:py-2 uppercase font-bold";
   return (
     <NavLink to={to} className={linkClasses} onClick={onClick}>
       {label}
