@@ -23,7 +23,7 @@ const Map = () => {
         const [fullName, person] = data;
         const { imagePath, birthdate, deathdate, role } = person;
         const lifeLabel = `[${birthdate}-${deathdate}]`;
-        const path = `/icons/${fullName.replace(/ /g, "")}.png`;
+        const path = `/icons/${fullName.toLowerCase().replace(/ /g, "")}.png`;
         const myIcon = L.icon({
           iconUrl: path,
           iconSize: [48, 48],
