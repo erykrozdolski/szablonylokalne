@@ -295,6 +295,60 @@ export const biograms = {
     pracowity kapłan patronuje jednej z ulic w Bralinie.`,
     ],
   },
+  "Ludwik Schulz": {
+    name: "Ludwik",
+    surname: "Schulz",
+    birthdate: "1909",
+    deathdate: "1941",
+    imagePath: "/avatars/ludwikschulz.png",
+    role: "działacz społeczny, nauczyciel",
+    video: "/video/schulz.mp4",
+    location: [51.28398171687474, 17.91392182413354],
+    desc: [
+      `Urodził się w 1909r. w Recklinghausen (Niemcy – Nadrenia Północna-Westfalia). W czasie
+      I wojny światowej zamieszkał z rodziną w Ostrzeszowie, skąd pochodziła jego matka. Tu ukończył
+      Ewangelickie Państwowe Seminarium Nauczycielskie. <b>Przed II wojną światową rozpoczął pracę
+      w Publicznej Szkole Powszechnej w Bralinie, w którym udzielał się również społecznie.</b>
+      Po kampanii wrześniowej w 1939 r., Ludwik, razem z bratem – Kazimierzem (1911-1941), schronił
+      się w rodzinnym domu, gdzie 7 miesięcy później <b>aresztowało ich gestapo</b>. Niewykluczone, że
+      powodem był udział ich ojca, Wacława (1875-1962) w powstaniu wielkopolskim. Wraz z innymi
+      współwięźniami bracia Schulzowie dotarli koleją do Ostrowa Wielkopolskiego, a dalej przez
+      Wrocław, Drezno do Monachium, <b>skąd popędzono ich pieszo do obozu koncentracyjnego Dachau</b>
+      (Niemcy – Bawaria). Po 6 tygodniach Szulcowie zostali przewiezieni do kolejnego, docelowego –
+      <b>KL Mauthausen-Gusen</b> (Austria). Tu ich rozdzielono.
+      Po latach jeden z więźniów zaświadczył, że w 1941 r. widział ciało Kazimierza, przeszyte serią
+      z karabinu maszynowego, na drutach ogrodzenia. Kilka tygodni po jego śmierci, 21 września,
+      w podobny sposób zginął jego brat, Ludwik (nr obozowy 8039). Miał wówczas 32 lata.`,
+    ],
+  },
+  "Bolesław Płókarz": {
+    name: "Bolesław",
+    surname: "Płókarz",
+    birthdate: "1898",
+    deathdate: "1980",
+    imagePath: "/avatars/bolesławpłókarz.png",
+    role: "działacz niepodległościowy",
+    video: "/video/płókarz.mp4",
+    location: [51.28398171687474, 17.91392182413354],
+    desc: [
+      `<b>Urodził się w 1898 roku w Bralinie</b> na ówczesnym Śląsku (dziś Wielkopolska). W wieku 14 lat
+      ukończył 8-letnią szkołę powszechną w swej rodzinnej miejscowości. Następnie uczył się kupiectwa
+      w Składzie Żelaza Wiktora Lisa w Kępnie. W tym okresie działał w Towarzystwie Polskich Uczniów
+      Kupiectwa, które w 1914 r. zostało jednak przez Niemców rozwiązane.
+      <b>W lipcu 1917 r. Bolesława Płókarza zmobilizowano do armii niemieckiej i wysłano na front
+      francuski I wojny światowej.</b> Po zwolnieniu z wojska wraz z ojcem, Franciszkiem (1866-1938), i ks.
+      radcą Tomaszem Gabrielem (1865-1930) <b>poświęcił się pracy niepodległościowej. Przyczynił się do
+      włączenia w 1920 r. Ziemi Bralińskiej do Rzeczpospolitej. Był m.in. współzałożycielem i działaczem
+      Towarzystwa Śpiewu i Towarzystwa Gimnastycznego Sokół.</b> Jego wniosek do Komitetu Krzyża
+      i Medalu Niepodległości z 30 grudnia 1937 r. o odznaczenie za pracę niepodległościową został
+      jednak odrzucony z powodu braku podstaw (!?), mimo wielu świadków jego zaangażowania
+      patriotycznego.
+      Nieznane są losy Bolesława Płókarza przed wybuchem II wojny światowej, w czasie jej trwania
+      i po „wyzwoleniu”. „Odnalazł się” w 1952 r. w Nowym Jorku, dokąd dotarł drogą morską z Niemiec.
+      W Stanach Zjednoczonych mieszkał m.in. w Forest Park na przedmieściach Chicago (stan Illinois)
+      i w Cincinnati (stan Ohio). Zmarł w 1980 roku w wieku 82 lat w Fairfield.`,
+    ],
+  },
 };
 
 export default biograms;
