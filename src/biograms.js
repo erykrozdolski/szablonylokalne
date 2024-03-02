@@ -302,8 +302,8 @@ export const biograms = {
     deathdate: "1941",
     imagePath: "/avatars/ludwikschulz.png",
     role: "działacz społeczny, nauczyciel",
-    video: "/video/schulz.mp4",
-    location: [51.28398171687474, 17.91392182413354],
+    video: "/video/szulc.mp4",
+    location: [51.28549361124551, 17.8997352908563],
     desc: [
       `Urodził się w 1909r. w Recklinghausen (Niemcy – Nadrenia Północna-Westfalia). W czasie
       I wojny światowej zamieszkał z rodziną w Ostrzeszowie, skąd pochodziła jego matka. Tu ukończył
@@ -328,8 +328,8 @@ export const biograms = {
     deathdate: "1980",
     imagePath: "/avatars/bolesławpłókarz.png",
     role: "działacz niepodległościowy",
-    video: "/video/płókarz.mp4",
-    location: [51.28398171687474, 17.91392182413354],
+    video: "/video/plokarz.mp4",
+    location: [51.28502854158273, 17.909904445391178],
     desc: [
       `<b>Urodził się w 1898 roku w Bralinie</b> na ówczesnym Śląsku (dziś Wielkopolska). W wieku 14 lat
       ukończył 8-letnią szkołę powszechną w swej rodzinnej miejscowości. Następnie uczył się kupiectwa
