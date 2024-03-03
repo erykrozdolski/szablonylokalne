@@ -3,7 +3,7 @@ import Map from "../components/Map/Map";
 import { NavLink } from "react-router-dom";
 
 const MapPage = () => {
-  const paragraphClass = "md:text-xl text-l my-4";
+  const paragraphClass = "md:text-l text-m my-4";
 
   return (
     <div className="text-justify">

@@ -10,7 +10,7 @@ const Map = () => {
 
   return (
     <MapContainer
-      className="lg:h-screen h-[32rem]"
+      className="lg:h-screen h-[24rem]"
       center={[51.2861, 17.904209]}
       zoom={16}
       scrollWheelZoom={false}

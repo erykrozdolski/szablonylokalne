@@ -121,7 +121,7 @@ export const biograms = {
     name: "Jan",
     surname: "Rybark",
     imagePath: "/avatars/hanysrybark.png",
-    iconPath: "/icons/hanysrybark.png",
+    iconPath: "/icons/janrybark.png",
     video: "/video/hanys.mp4",
     birthdate: "1884",
     deathdate: "1939",
