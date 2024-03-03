@@ -21,11 +21,10 @@ const Map = () => {
       />
       {biogramList.map((data) => {
         const [fullName, person] = data;
-        const { imagePath, birthdate, deathdate, role } = person;
+        const { imagePath, iconPath, birthdate, deathdate, role } = person;
         const lifeLabel = `[${birthdate}-${deathdate}]`;
-        const path = `/icons/${fullName.replace(/ /g, "")}.png`;
         const myIcon = L.icon({
-          iconUrl: path,
+          iconUrl: iconPath,
           iconSize: [48, 48],
           iconAnchor: [16, 16],
         });
