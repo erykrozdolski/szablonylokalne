@@ -1,7 +1,7 @@
 import React from "react";
 
 const AboutPage = () => {
-  const paragraphClasses = `lg:text-xl md:text-xl text-l`;
+  const paragraphClasses = `lg:text-l md:text-m text-s`;
   const largeTitle = "text-4xl font-bold my-4 ";
   const mediumTitle = "text-2xl font-bold my-4";
   return (
@@ -64,8 +64,8 @@ const AboutPage = () => {
       </div>
       <p className={largeTitle}>Kiedy?</p>
       <p className={paragraphClasses}>
-        Pierwszy mural powstał jesienią 2022, najpóźniejszy (ale nie ostatni) w
-        kwietniu 2023 roku.
+        Pierwszy mural powstał jesienią 2022, najpóźniejszy (ale nie ostatni) w{" "}
+        <s>kwietniu 2023</s> marcu 2024 roku
       </p>
       <p className={largeTitle}>Kto?</p>
       <p className={paragraphClasses}>
