@@ -18,7 +18,7 @@ const BiogramPage = () => {
             <div className="px-4 text-white text-3xl md:text-5xl lg:text-8xl">
               <p className="font-light">{biogram.name} </p>
               <p className="font-black uppercase">{biogram.surname}</p>
-              <p className="text-2xl lg:text-4xl">{lifeLabel}</p>
+              <p className="text-2xl lg:text-5xl">{lifeLabel}</p>
             </div>
           </div>
         </div>
@@ -27,7 +27,6 @@ const BiogramPage = () => {
           src={`${video}`}
           autoPlay
           muted
-          loop
           playsInline
         ></video>
       </div>
@@ -46,7 +45,7 @@ const BiogramPage = () => {
           <p className="text-sm ">{role}</p>
           <p className="pt-2">{lifeLabel}</p>
         </div>
-        <div className="col-start-1 lg:col-start-5 col-end-13">
+        <div className="col-start-1 lg:col-start-5 md:col-end-12 col-end-13">
           <p className="text-4xl lg:text-6xl mb-6">Życiorys</p>
           {biogram.desc.map((paragraph, i) => (
             <p

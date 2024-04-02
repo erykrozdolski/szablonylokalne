@@ -10,7 +10,7 @@ const Map = () => {
 
   return (
     <MapContainer
-      className="lg:h-screen h-[32rem]"
+      className="lg:h-screen h-[24rem]"
       center={[51.2861, 17.904209]}
       zoom={16}
       scrollWheelZoom={false}
@@ -21,11 +21,10 @@ const Map = () => {
       />
       {biogramList.map((data) => {
         const [fullName, person] = data;
-        const { imagePath, birthdate, deathdate, role } = person;
+        const { imagePath, iconPath, birthdate, deathdate, role } = person;
         const lifeLabel = `[${birthdate}-${deathdate}]`;
-        const path = `/icons/${fullName.toLowerCase().replace(/ /g, "")}.png`;
         const myIcon = L.icon({
-          iconUrl: path,
+          iconUrl: iconPath,
           iconSize: [48, 48],
           iconAnchor: [16, 16],
         });

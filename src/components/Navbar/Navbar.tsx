@@ -6,8 +6,8 @@ const Navbar = () => {
   const [isMenuOpen, toggleMenu] = useState(false);
 
   return (
-    <nav className="">
-      <div className="max-w-7xl mx-auto px-4">
+    <nav className="px-4">
+      <div className="">
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <div>

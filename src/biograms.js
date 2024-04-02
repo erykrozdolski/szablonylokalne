@@ -5,6 +5,7 @@ export const biograms = {
     birthdate: "1865",
     deathdate: "1930",
     imagePath: "/avatars/tomaszgabriel.png",
+    iconPath: "/icons/tomaszgabriel.png",
     video: "/video/tomaszgabriel.mp4",
     role: "działacz niepodległościowy, duszpasterz",
     location: [51.28632098765013, 17.9012634897601],
@@ -31,6 +32,7 @@ export const biograms = {
     deathdate: "1906",
     role: "filolog, literat, Silesiofil",
     imagePath: "/avatars/michałprzywara.jpg",
+    iconPath: "/icons/michałprzywara.png",
     video: "/video/przywara.mp4",
     location: [51.286094725553596, 17.913834504522413],
     desc: [
@@ -57,6 +59,7 @@ export const biograms = {
     deathdate: "1955",
     role: "działacz społeczny, nauczyciel, muzyk",
     imagePath: "/avatars/stanisławkutzner.jpg",
+    iconPath: "/icons/stanisławkutzner.png",
     location: [51.28459572922375, 17.905000063729098],
     video: "/video/kutzner.mp4",
     desc: [
@@ -85,6 +88,7 @@ export const biograms = {
     birthdate: "1911",
     deathdate: "1991",
     imagePath: "/avatars/antonigabriel.jpg",
+    iconPath: "/icons/antonigabriel.png",
     video: "/video/antonigabriel.mp4",
     role: "inżynier, pilot, genialny umysł",
     location: [51.28482854158273, 17.912244445391178],
@@ -117,6 +121,7 @@ export const biograms = {
     name: "Jan",
     surname: "Rybark",
     imagePath: "/avatars/hanysrybark.png",
+    iconPath: "/icons/janrybark.png",
     video: "/video/hanys.mp4",
     birthdate: "1884",
     deathdate: "1939",
@@ -147,6 +152,7 @@ export const biograms = {
     birthdate: "1889",
     deathdate: "1967",
     imagePath: "/avatars/melchiorgrossek.png",
+    iconPath: "/icons/melchiorgrossek.png",
     video: "/video/melchior.mp4",
     role: "artysta, malarz",
     location: [51.285630149541376, 17.902997743189374],
@@ -175,6 +181,7 @@ export const biograms = {
     birthdate: "1890",
     deathdate: "1939",
     imagePath: "/avatars/jannowak.jpg",
+    iconPath: "/icons/jannowak.png",
     video: "/video/nowak.mp4",
     role: "pocztowiec gdański, bohater",
     location: [51.285910975239716, 17.908082681648615],
@@ -209,6 +216,7 @@ export const biograms = {
     deathdate: "1940",
     role: "oficer Wojska Polskiego, katyńczyk",
     imagePath: "/avatars/stanisławgrossek.jpg",
+    iconPath: "/icons/stanisławgrossek.png",
     video: "/video/stanisławgrossek.mp4",
     location: [51.28648999055122, 17.912114123362826],
     desc: [
@@ -236,6 +244,7 @@ export const biograms = {
     birthdate: "1900",
     deathdate: "1974",
     imagePath: "/avatars/ignacymajchrzak.png",
+    iconPath: "/icons/ignacymajchrzak.png",
     role: "strzelec wielkopolski, weteran wojenny",
     video: "/video/majchrzak.mp4",
     location: [51.28572817968929, 17.90471084127396],
@@ -266,6 +275,7 @@ export const biograms = {
     birthdate: "1892",
     deathdate: "1942",
     imagePath: "/avatars/stefanwojciechowski.png",
+    iconPath: "/icons/stefanwojciechowski.png",
     role: "działacz społeczny, duszpasterz",
     video: "/video/wojciechowski.mp4",
     location: [51.28398171687474, 17.91392182413354],
@@ -301,9 +311,10 @@ export const biograms = {
     birthdate: "1909",
     deathdate: "1941",
     imagePath: "/avatars/ludwikschulz.png",
+    iconPath: "/icons/ludwikschulz.png",
     role: "działacz społeczny, nauczyciel",
-    video: "/video/schulz.mp4",
-    location: [51.28398171687474, 17.91392182413354],
+    video: "/video/szulc.mp4",
+    location: [51.28549361124551, 17.8997352908563],
     desc: [
       `Urodził się w 1909r. w Recklinghausen (Niemcy – Nadrenia Północna-Westfalia). W czasie
       I wojny światowej zamieszkał z rodziną w Ostrzeszowie, skąd pochodziła jego matka. Tu ukończył
@@ -327,9 +338,10 @@ export const biograms = {
     birthdate: "1898",
     deathdate: "1980",
     imagePath: "/avatars/bolesławpłókarz.png",
+    iconPath: "/icons/bolesławpłókarz.png",
     role: "działacz niepodległościowy",
-    video: "/video/płókarz.mp4",
-    location: [51.28398171687474, 17.91392182413354],
+    video: "/video/plokarz.mp4",
+    location: [51.28502854158273, 17.909904445391178],
     desc: [
       `<b>Urodził się w 1898 roku w Bralinie</b> na ówczesnym Śląsku (dziś Wielkopolska). W wieku 14 lat
       ukończył 8-letnią szkołę powszechną w swej rodzinnej miejscowości. Następnie uczył się kupiectwa
@@ -347,6 +359,54 @@ export const biograms = {
       i po „wyzwoleniu”. „Odnalazł się” w 1952 r. w Nowym Jorku, dokąd dotarł drogą morską z Niemiec.
       W Stanach Zjednoczonych mieszkał m.in. w Forest Park na przedmieściach Chicago (stan Illinois)
       i w Cincinnati (stan Ohio). Zmarł w 1980 roku w wieku 82 lat w Fairfield.`,
+    ],
+  },
+  "Zofia Lemanik": {
+    name: "Zofia",
+    surname: "Lemanik",
+    birthdate: "1920",
+    deathdate: "2002",
+    role: "działaczka w ruchu oporu, żołnierka AK",
+    video: "/video/zofialemanik.mp4",
+    imagePath: "/avatars/zofialemanik.png",
+    iconPath: "/icons/zofialemanik.png",
+    location: [51.2861001124551, 17.90052752908563],
+    desc: [
+      `
+    <b>Urodziła się 10 kwietnia 1920 r. w Bralinie.</b> Jej rodzicami byli Maria i Wojciech Poszwa. Przez 3 lata
+uczęszczała do Szkoły Powszechnej w Bralinie, a następnie 6 lat dojeżdżała do gimnazjum w Kępnie.
+Tam należała do 3. drużyny harcerskiej im. B. Łazarewiczówny. Po ukończeniu gimnazjum
+uczęszczała do Szkoły Gospodarczej w Poznaniu. Po zakończeniu edukacji powróciła do rodzinnej
+miejscowości. Pomagała rodzicom w prowadzeniu rodzinnej restauracji. Od września 1937 r. do
+września 1939 r. Zofia pracowała w Zarządzie Gminnym w Bralinie. Tam rozpoczęła swoją przygodę
+z działalnością konspiracyjną jako <i>Czarna Zośka</i>.`,
+      `
+
+<b>W 1940 r. nawiązała współpracę z zastępcą dowódcy ruchu oporu w Kępnie, Donatem
+Wyderkowskim (ps. <i>Adam</i>).</b> Na samym początku przekazała aparat radiowy, z którego korzystano
+do czasu zdekonspirowania uczestników ruchu oporu z terenu Ostrzeszowa. Czarna Zośka w czasie
+
+okupacji została zatrudniona w Amstkomisariacie. Stamtąd dostarczała Wyderkowskiemu druki do-
+wodów osobistych, zaświadczeń pracy, zezwoleń na podróżowanie koleją i kartek żywnościowych, z
+
+których korzystali ludzie zaangażowani w pracę konspiracyjną. Od 1940 roku zatrudniona została we
+Wrocławiu jako pomoc domowa. Wynikało to z jej współpracy z punktem ruchu oporu ,,Olimp” we
+Wrocławiu. <b>W 1942 r. została zaprzysiężona przez dowódcę kompanii Armii Krajowej Józefa
+Dyrbacha. Jej zadaniem było prowadzenie komórki legalizacyjnej placówki „Bralin”.</b> W latach 1940-
+-1945 ponownie pracowała w Zarządzie Gminnym w Bralinie. W jej domu znajdował się punkt
+nasłuchu radiowego, przekazywano jej również treść podsłuchanych rozmów telefonicznych
+Gestapo w Łodzi z posterunkiem policji w Bralinie.`,
+      `
+
+Wyszła za mąż za Jana Lemanika. Miała jednego syna, Eugeniusza. Od 1950 do 1978 r. pracowała
+jako rachmistrz w Centrali handlowej w Poznaniu, a później (do uzyskania wieku emerytalnego) w
+
+Banku Spółdzielczym w Bralinie. <b>Za działalność konspiracyjną i zawziętą walkę z okupantem zosta-
+ła nagrodzona. W 1994 r. postanowieniem Prezydenta RP odznaczona Krzyżem Armii Krajowej.
+
+W roku 2000 Prezydent Rzeczypospolitej Polskiej mianował Zofię Lemanik na stopień podporucz-
+nika Wojska Polskiego.</b> Zmarła 21 czerwca 2002 r, została pochowana w Bralinie.
+    `,
     ],
   },
 };
