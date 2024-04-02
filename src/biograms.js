@@ -361,6 +361,54 @@ export const biograms = {
       i w Cincinnati (stan Ohio). Zmarł w 1980 roku w wieku 82 lat w Fairfield.`,
     ],
   },
+  "Zofia Lemanik": {
+    name: "Zofia",
+    surname: "Lemanik",
+    birthdate: "1920",
+    deathdate: "2002",
+    role: "działaczka w ruchu oporu, żołnierka AK",
+    video: "/video/zofialemanik.mp4",
+    imagePath: "/avatars/zofialemanik.png",
+    iconPath: "/icons/zofialemanik.png",
+    location: [51.2861001124551, 17.90052752908563],
+    desc: [
+      `
+    <b>Urodziła się 10 kwietnia 1920 r. w Bralinie.</b> Jej rodzicami byli Maria i Wojciech Poszwa. Przez 3 lata
+uczęszczała do Szkoły Powszechnej w Bralinie, a następnie 6 lat dojeżdżała do gimnazjum w Kępnie.
+Tam należała do 3. drużyny harcerskiej im. B. Łazarewiczówny. Po ukończeniu gimnazjum
+uczęszczała do Szkoły Gospodarczej w Poznaniu. Po zakończeniu edukacji powróciła do rodzinnej
+miejscowości. Pomagała rodzicom w prowadzeniu rodzinnej restauracji. Od września 1937 r. do
+września 1939 r. Zofia pracowała w Zarządzie Gminnym w Bralinie. Tam rozpoczęła swoją przygodę
+z działalnością konspiracyjną jako <i>Czarna Zośka</i>.`,
+      `
+
+<b>W 1940 r. nawiązała współpracę z zastępcą dowódcy ruchu oporu w Kępnie, Donatem
+Wyderkowskim (ps. <i>Adam</i>).</b> Na samym początku przekazała aparat radiowy, z którego korzystano
+do czasu zdekonspirowania uczestników ruchu oporu z terenu Ostrzeszowa. Czarna Zośka w czasie
+
+okupacji została zatrudniona w Amstkomisariacie. Stamtąd dostarczała Wyderkowskiemu druki do-
+wodów osobistych, zaświadczeń pracy, zezwoleń na podróżowanie koleją i kartek żywnościowych, z
+
+których korzystali ludzie zaangażowani w pracę konspiracyjną. Od 1940 roku zatrudniona została we
+Wrocławiu jako pomoc domowa. Wynikało to z jej współpracy z punktem ruchu oporu ,,Olimp” we
+Wrocławiu. <b>W 1942 r. została zaprzysiężona przez dowódcę kompanii Armii Krajowej Józefa
+Dyrbacha. Jej zadaniem było prowadzenie komórki legalizacyjnej placówki „Bralin”.</b> W latach 1940-
+-1945 ponownie pracowała w Zarządzie Gminnym w Bralinie. W jej domu znajdował się punkt
+nasłuchu radiowego, przekazywano jej również treść podsłuchanych rozmów telefonicznych
+Gestapo w Łodzi z posterunkiem policji w Bralinie.`,
+      `
+
+Wyszła za mąż za Jana Lemanika. Miała jednego syna, Eugeniusza. Od 1950 do 1978 r. pracowała
+jako rachmistrz w Centrali handlowej w Poznaniu, a później (do uzyskania wieku emerytalnego) w
+
+Banku Spółdzielczym w Bralinie. <b>Za działalność konspiracyjną i zawziętą walkę z okupantem zosta-
+ła nagrodzona. W 1994 r. postanowieniem Prezydenta RP odznaczona Krzyżem Armii Krajowej.
+
+W roku 2000 Prezydent Rzeczypospolitej Polskiej mianował Zofię Lemanik na stopień podporucz-
+nika Wojska Polskiego.</b> Zmarła 21 czerwca 2002 r, została pochowana w Bralinie.
+    `,
+    ],
+  },
 };
 
 export default biograms;
